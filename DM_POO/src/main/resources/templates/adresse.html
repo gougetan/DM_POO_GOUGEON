@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head>
+    <title>adresse</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+    <nav th:replace="navbar.html"/>
+    <br>
+
+    <form action ="/meteo" method="post">
+        <br>
+        <label>Please input your adress :</label >
+        <input name="address" id="address" placeholder="Ex : 1 Rue Aristote, 72000 Le Mans">
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+</html>

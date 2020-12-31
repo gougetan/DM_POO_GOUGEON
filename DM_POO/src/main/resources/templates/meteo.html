@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <title>meteo</title>
+    </head>
+    <body>
+        <nav th:replace="navbar.html"/>
+        <br><br>
+        La température est de <span th:text="${meteo}"/>°C à <span th:text="${address}"/>
+    </body>
+</html>
